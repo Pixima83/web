@@ -47,6 +47,12 @@ main {
     margin: auto;
 }
 
+.hyperlink {
+  font-size: 1.2;
+  color: #ebf779;
+  transition: all 0.3s ease;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
