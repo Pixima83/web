@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>✉️Contacto|Pixima</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="assets/img/favicons/pixi1.png" type="image/png" />
+
+  </head>
+
+  <header>
+
+      <h1>📡 Contacto</h1>
+      <p class="subtitulo">Contacta conmigo a través de este formulario</p>
+      
+  </header>
+
+  <body>
+
+    <canvas id="fondo-estrellas"></canvas>
+
+     <nav>
+
+      <ul>
+
+        <li><a href="sobre_mi.html">Sobre mí</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="links.html" target="_blank" >Links</a></li>
+
+      </ul>
+
+    </nav>
+
+    <main class="formulario-contacto">
+
+      <form action="https://formspree.io/f/xanjorqv" method="POST" id="form_contacto" >
+
+        <label for="nombre">🪪 Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Emma (Sin el apellido)" maxlength="15" required />
+
+        <label for="email">📧 Correo:</label>
+        <input type="email" id="email" name="email" placeholder="emma@piximail.gal" required />
+
+        <label for="area">🗺️Área:</label>
+        <select id="area" name="area" required>
+          
+          <option value="musica">🎵Música</option>
+          <option value="redes">📱Redes</option>
+          <option value="juegos">🎮Videojuegos</option>
+          <option value="programacion">🖥️Programación</option>
+          <option value="web">🌐Programación web</option>
+          <option value="dibujo">🎨Dibujo</option>
+          <option value="otro">❓Otro</option>
+
+        </select>
+
+        <label for="telefono">📞 Teléfono (Opcional):
+          <p id="phone">Si se alarga la conversación podemos hablar por Signal</p>
+        </label>
+        <input type="tel" id="telefono" name="telefono" placeholder="+34 611 22 33 44" >
+
+        <label for="mensaje">💬 Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="6" placeholder="Hola" required></textarea>
+
+        <button type="submit">🚀 Enviar</button>
+
+      </form>
+
+    </main>
+
+  </body>
+
+ <footer>
+
+    <p>✨ Emma © 2025 - Esta página está hecho con amor💜, código⌨️ y estrellas🌟 ✨</p>
+    <br>
+    <p>⚠️⚠️Las donaciones son voluntarias, usaré las donaciones para impulsar mis estudios, <br> 
+        de momento no se otorgará beneficios ni aceptaré encargos a los donadores.⚠️ <br>
+        🙏🏼Por favor dona solamente si te gusta mis proyectos y crees que lo merece. 🫶🏼<br>
+        ¡Muchas gracias!💖
+    </p>
+    <!--Ko-Fi-->
+    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+    <script type='text/javascript'>
+    kofiwidget2.init('Apóyame en Ko-fi', '#673ab7', 'P5P51G4COV');kofiwidget2.draw();
+    </script> 
+    <br>
+    <!--Buy me a coffee-->
+    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" 
+    data-name="bmc-button" data-slug="pixima" data-color="#e1d014" data-emoji="🧋" data-font="Cookie" 
+    data-text="Buy me a snack" data-outline-color="#000000" data-font-color="#000000" 
+    data-coffee-color="#FFDD00" ></script>
+
+  </footer>
+  <script src="js/script.js"></script>
+  <script src="js/validar_form.js"></script>
+  <!--SweetAlert-->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/sweetalert.js"></script>
+
+
+</html>
