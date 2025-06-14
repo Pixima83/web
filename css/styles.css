@@ -17,6 +17,11 @@ h1, h2 {
     color: #ffb6ff;
 }
 
+h3 {
+  margin: 0.5rem 0;
+  color: #dbbedb;
+}
+
 nav {
     background: rgba(255, 255, 255, 0.05);
     padding: 1rem;
