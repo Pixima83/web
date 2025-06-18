@@ -2,12 +2,16 @@
 <html lang="es">
 
   <head>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>404 - Página no encontrada</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/404.css">
-    <link rel="icon" href="img/estrella.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/img/favicons/404.png" sizes="64x64" type="image/png" />
+    <link rel="apple-touch-icon" type="image/png" sizes="64x64" href="assets/img/favicons/404.png" >
+    <link rel="icon" href="assets/img/favicons/404.svg" type="image/svg+xml" >
+    
   </head>
 
   <body>
@@ -16,9 +20,10 @@
 
     <div class="contenedor">
       <h1>404</h1>
-      <p><span class="emoji">🌌</span> ¡Ups! Parece que te perdiste en el limbo digital.</p>
+      <p><span class="emoji">🌌</span> ¡Ups! Parece que te perdiste entre realiades.</p>
       <p>No pude encontrar la página que buscabas o todavía no está terminada.</p>
       <p><a href="index.html">Volver al inicio</a></p>
+      <button onclick="history.back()" >Volver atrás</button>
     </div>
 
   </body>
