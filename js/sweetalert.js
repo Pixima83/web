@@ -10,4 +10,5 @@ Swal.fire({
     allowEnterClick: true,
     confirmButtonColor: '#3a3457',
     confirmButtonAriaLabel: 'Confirmar',
+    footer: 'Esta es mi página personal, está hecha como esas páginas tipo CV web, no lo hice con un tono serio, pero toda la información que doy es real.'
 });
