@@ -169,3 +169,10 @@ form.addEventListener("submit", function (e) {
         }
     });
 });
+
+// Partes repetidas
+
+// Footer
+fetch("/partes/footer.html")
+  .then(response => response.text())
+  .then(data => document.getElementById("footer").innerHTML = data);
